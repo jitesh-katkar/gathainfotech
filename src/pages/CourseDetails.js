@@ -34,10 +34,6 @@ const CourseDetails = () => {
       duration: '6 weeks',
       level: 'Intermediate',
       rating: 4.8,
-      students: 1200,
-      price: '₹25,000',
-      originalPrice: '₹35,000',
-      discount: '28%',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
       instructor: 'Mr. JK',
      // instructorImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
@@ -116,10 +112,6 @@ const CourseDetails = () => {
       duration: '8 weeks',
       level: 'Advanced',
       rating: 4.9,
-      students: 980,
-      price: '₹35,000',
-      originalPrice: '₹45,000',
-      discount: '22%',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop',
       instructor: 'Mr. JK',
       //instructorImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
@@ -208,10 +200,6 @@ const CourseDetails = () => {
       duration: '4 weeks',
       level: 'Advanced',
       rating: 4.7,
-      students: 750,
-      price: '₹20,000',
-      originalPrice: '₹28,000',
-      discount: '29%',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
       instructor: 'Mr. JK',
       //instructorImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
@@ -351,13 +339,7 @@ const CourseDetails = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary-600 mb-2">{course.price}</div>
-                <div className="text-lg text-gray-500 line-through">{course.originalPrice}</div>
-                <div className="text-sm text-green-600 font-medium mt-1">Save {course.discount}</div>
-              </div>
-            </div>
+            
             <div className="card">
               <div className="flex items-center space-x-4">
                 <img 

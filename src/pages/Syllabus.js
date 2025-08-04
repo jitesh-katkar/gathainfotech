@@ -65,41 +65,46 @@ const Syllabus = () => {
       projects: ['E-commerce API', 'Task Management System']
     },
     {
-      id: 'database',
-      title: 'Database & ORM',
-      duration: '3 weeks',
-      icon: Database,
-      description: 'Master database design and ORM technologies',
+      id: 'spring-boot-microservices',
+      title: 'Spring Boot & Microservices',
+      duration: '6 weeks',
+      icon: Server,
+      description: 'Learn Spring Boot, Microservices and build Microservice project',
       topics: [
-        'SQL Fundamentals and Advanced Queries',
-        'Database Design and Normalization',
-        'MySQL/PostgreSQL Administration',
-        'Hibernate ORM Framework',
-        'JPA Annotations and Relationships',
-        'Database Transactions and ACID',
-        'Query Optimization and Performance',
-        'NoSQL Databases (MongoDB)'
+        'Restful aPI Devlopment with Spring Boot',
+        'Microservice Architecture Explained',
+        'Security with Spring Security & JWT',
+        'Database Integration (JPA, MySQL, MongoDB)',
+        'Cloud Deployment & Docker Integration',
+        'Service Discovery with Eureka & API Gateway',
+        'Load Balancer',
+        'Circuit Breakers Pattern, etc.'
       ],
-      projects: ['Library Management System', 'Inventory Management']
-    },
-    {
-      id: 'frontend',
-      title: 'Frontend Development',
-      duration: '5 weeks',
-      icon: Globe,
-      description: 'Build modern web interfaces with React',
-      topics: [
-        'HTML5, CSS3, and JavaScript ES6+',
-        'React.js Fundamentals and Hooks',
-        'State Management (Redux/Context)',
-        'React Router and Navigation',
-        'API Integration and Axios',
-        'CSS Frameworks (Tailwind CSS)',
-        'Responsive Design and PWA',
-        'Testing with Jest and React Testing Library'
-      ],
-      projects: ['E-commerce Frontend', 'Dashboard Application']
-    },
+      projects: ['E-commerce API', 'Task Management System']
+    },{
+id: 'selenium-testing',
+      title: 'Automation Testing - Selenium with Java',
+      duration: '8 weeks',
+      icon: Zap,
+      description: 'Learn Automation Testing - Selenium with Java',
+topics: [
+'Introduction to Selenium',
+'Setting Up the Environment',
+'Locating Web Elements',
+'WebDriver Commands','Handling Web Page Elements',
+'Working with Advanced User Interactions',
+'Synchronization Techniques',
+'Page Object Model (POM)',
+'TestNG Framework',
+'Data-Driven Testing',
+'Logging and Reporting',
+'Maven and Project Structure',
+'CI/CD Integration',
+'Selenium Grid and Parallel Execution',
+'Best Practices and Common Pitfalls'
+],
+projects: ['Event Streaming Platform', 'Microservices E-commerce']
+},
     {
       id: 'aws-cloud',
       title: 'AWS Cloud Computing',
@@ -306,15 +311,7 @@ const Syllabus = () => {
               </ul>
             </div>
             
-            <div className="card">
-              <h3 className="text-xl font-semibold mb-4">DevOps & Cloud</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Deploy applications on AWS</li>
-                <li>• Implement CI/CD pipelines</li>
-                <li>• Monitor and scale applications</li>
-                <li>• Use containerization technologies</li>
-              </ul>
-            </div>
+  
             
             <div className="card">
               <h3 className="text-xl font-semibold mb-4">Database Management</h3>

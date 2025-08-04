@@ -46,8 +46,6 @@ const Home = () => {
       duration: '6 weeks',
       level: 'Intermediate',
       rating: 4.8,
-      students: 1200,
-      price: '₹25,000',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop'
     },
     {
@@ -56,8 +54,6 @@ const Home = () => {
       duration: '8 weeks',
       level: 'Advanced',
       rating: 4.9,
-      students: 980,
-      price: '₹35,000',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop'
     },
     {
@@ -66,16 +62,13 @@ const Home = () => {
       duration: '4 weeks',
       level: 'Advanced',
       rating: 4.7,
-      students: 750,
-      price: '₹20,000',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop'
     }
   ];
 
   const stats = [
-    { number: '5000+', label: 'Students Trained' },
+    { number: '50+', label: 'Students Trained' },
     { number: '95%', label: 'Placement Rate' },
-    { number: '50+', label: 'Corporate Partners' },
     { number: '10+', label: 'Years Experience' }
   ];
 

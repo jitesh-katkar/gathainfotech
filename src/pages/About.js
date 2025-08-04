@@ -70,9 +70,8 @@ const About = () => {
   ];
 
   const achievements = [
-    { number: '5000+', label: 'Students Trained' },
+    { number: '50+', label: 'Students Trained' },
     { number: '95%', label: 'Placement Rate' },
-    { number: '50+', label: 'Corporate Partners' },
     { number: '100+', label: 'Live Projects' }
   ];
 
