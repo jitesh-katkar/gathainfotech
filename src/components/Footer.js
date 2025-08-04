@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Code className="h-8 w-8 text-primary-400" />
-              <span className="text-xl font-bold">Gathainfotech</span>
+              <span className="text-xl font-bold">Gatha Infotech</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Leading Java Full Stack Training Institute providing comprehensive courses in 
@@ -68,19 +68,19 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-primary-400" />
                 <span className="text-gray-300 text-sm">
-                  123 Tech Street, Bangalore, India
+                  Pune Maharashtra, India
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary-400" />
                 <span className="text-gray-300 text-sm">
-                  +91 98765 43210
+                  +91 81493 81488
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary-400" />
                 <span className="text-gray-300 text-sm">
-                  info@gathainfotech.com
+                  official@gathainfotech.com
                 </span>
               </div>
             </div>

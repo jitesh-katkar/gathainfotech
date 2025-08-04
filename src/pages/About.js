@@ -40,11 +40,11 @@ const About = () => {
 
   const team = [
     {
-      name: 'Rajesh Kumar',
+      name: 'Mr.JK',
       role: 'Founder & CEO',
-      experience: '15+ years',
+      experience: '12+ years',
       expertise: 'Java, Spring Boot, Microservices',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face'
+      //image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face'
     },
     {
       name: 'Priya Sharma',
@@ -81,7 +81,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">About Gathainfotech</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">About Gatha Infotech</h1>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
             Leading Java Full Stack Training Institute committed to transforming careers 
             through comprehensive, industry-aligned education and hands-on experience.
@@ -222,8 +222,8 @@ const About = () => {
               <MapPin className="h-12 w-12 text-primary-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
               <p className="text-gray-600">
-                123 Tech Street<br />
-                Bangalore, Karnataka 560001<br />
+                Pune<br />
+                Mahashtra 411010<br />
                 India
               </p>
             </div>
@@ -231,8 +231,8 @@ const About = () => {
               <Phone className="h-12 w-12 text-primary-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
               <p className="text-gray-600">
-                +91 98765 43210<br />
-                +91 98765 43211<br />
+                +91 81493 81488<br />
+                
                 Mon - Fri, 9AM - 6PM
               </p>
             </div>
@@ -240,9 +240,8 @@ const About = () => {
               <Mail className="h-12 w-12 text-primary-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600">
-                info@gathainfotech.com<br />
-                admissions@gathainfotech.com<br />
-                support@gathainfotech.com
+                official@gathainfotech.com<br />
+                
               </p>
             </div>
           </div>

@@ -177,28 +177,7 @@ const Syllabus = () => {
           </p>
         </div>
       </section>
-
-      {/* Course Highlights */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {courseHighlights.map((highlight, index) => {
-              const Icon = highlight.icon;
-              return (
-                <div key={index} className="card text-center">
-                  <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon className="h-8 w-8 text-primary-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">{highlight.title}</h3>
-                  <div className="text-2xl font-bold text-primary-600 mb-2">{highlight.value}</div>
-                  <p className="text-gray-600 text-sm">{highlight.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
+  
       {/* Course Modules */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -269,6 +248,26 @@ const Syllabus = () => {
                       </div>
                     </div>
                   )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      {/* Course Highlights */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {courseHighlights.map((highlight, index) => {
+              const Icon = highlight.icon;
+              return (
+                <div key={index} className="card text-center">
+                  <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Icon className="h-8 w-8 text-primary-600" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{highlight.title}</h3>
+                  <div className="text-2xl font-bold text-primary-600 mb-2">{highlight.value}</div>
+                  <p className="text-gray-600 text-sm">{highlight.description}</p>
                 </div>
               );
             })}

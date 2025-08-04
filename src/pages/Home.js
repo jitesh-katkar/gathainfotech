@@ -93,8 +93,9 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Master Java Full Stack
-                <span className="block text-primary-200">Development</span>
+                Empowering the Next Generation of Tech
+
+                <span className="block text-primary-200">Experts</span>
               </h1>
               <p className="text-xl text-primary-100 mb-8">
                 Transform your career with our comprehensive Java Full Stack training program. 
@@ -163,7 +164,7 @@ const Home = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="section-title">Why Choose Gathainfotech?</h2>
+            <h2 className="section-title">Why Choose Gatha Infotech?</h2>
             <p className="section-subtitle">
               We provide comprehensive training programs designed to accelerate your career in Java Full Stack Development
             </p>

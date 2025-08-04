@@ -1,28 +1,49 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaPython, FaAws, FaDocker, FaJsSquare } from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa';
+import { SiSelenium } from 'react-icons/si';
+import { SiSpring } from 'react-icons/si';
+import { SiSpringboot } from 'react-icons/si';
+import { TbHexagon3D } from 'react-icons/tb';
+
 
 const techs = [
   {
-    name: 'React',
-    icon: <FaReact className="text-blue-500 text-5xl" />,
-    description: 'A JavaScript library for building user interfaces.',
-    link: 'https://react.dev/',
-    color: 'from-blue-50 to-blue-100'
-  },
-  {
-    name: 'Node.js',
-    icon: <FaNodeJs className="text-green-600 text-5xl" />,
-    description: 'JavaScript runtime built on Chrome\'s V8 engine.',
-    link: 'https://nodejs.org/',
-    color: 'from-green-50 to-green-100'
-  },
-  {
-    name: 'JavaScript',
-    icon: <FaJsSquare className="text-yellow-500 text-5xl" />,
-    description: 'The programming language of the Web.',
-    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    color: 'from-yellow-50 to-yellow-100'
-  },
+  name: 'Core Java',
+  icon: <FaJava  className="text-red-600 text-5xl" />, // Make sure to import SiJava from 'react-icons/si'
+  description: 'Fundamentals of Java including OOP, data types, Collection framework, exception handling, etc',
+  link: 'https://docs.oracle.com/javase/tutorial/',
+  color: 'from-red-50 to-red-100'
+},
+{
+  name: 'Spring Framework',
+  icon: <SiSpring className="text-green-500 text-5xl" />,
+  description: 'A powerful Java framework for building enterprise-grade applications.',
+  link: 'https://spring.io/projects/spring-framework',
+  color: 'from-green-50 to-green-100'
+},
+{
+  name: 'Spring Boot',
+  icon: <SiSpringboot className="text-green-600 text-5xl" />,
+  description: 'Simplifies Java development with auto-configuration and embedded servers.',
+  link: 'https://spring.io/projects/spring-boot',
+  color: 'from-lime-50 to-lime-100'
+},
+{
+  name: 'Microservices',
+  icon: <TbHexagon3D className="text-purple-600 text-5xl" />,
+  description: 'Build scalable, independently deployable services using Java and Spring Boot.',
+  link: 'https://microservices.io/',
+  color: 'from-purple-50 to-purple-100'
+},
+{
+  name: 'Selenium with Java',
+  icon: <SiSelenium className="text-green-600 text-5xl" />,
+  description: 'Automate web testing using Selenium WebDriver with Java.',
+  link: 'https://www.selenium.dev/documentation/webdriver/',
+  color: 'from-green-50 to-green-100'
+},
+
   {
     name: 'Python',
     icon: <FaPython className="text-blue-600 text-5xl" />,
@@ -36,14 +57,7 @@ const techs = [
     description: 'Amazon Web Services cloud platform.',
     link: 'https://aws.amazon.com/',
     color: 'from-orange-50 to-orange-100'
-  },
-  {
-    name: 'Docker',
-    icon: <FaDocker className="text-blue-600 text-5xl" />,
-    description: 'Container platform for building and deploying apps.',
-    link: 'https://www.docker.com/',
-    color: 'from-cyan-50 to-cyan-100'
-  },
+  }
 ];
 
 const TechCards = () => (

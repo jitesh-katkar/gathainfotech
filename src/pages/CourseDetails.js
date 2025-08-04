@@ -39,8 +39,8 @@ const CourseDetails = () => {
       originalPrice: '₹35,000',
       discount: '28%',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
-      instructor: 'Rajesh Kumar',
-      instructorImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+      instructor: 'Mr. JK',
+     // instructorImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
       description: 'Learn Spring Boot from scratch and build real-world applications. This comprehensive course covers everything from basic concepts to advanced features like security, testing, and deployment.',
       highlights: [
         'Build RESTful APIs with Spring Boot',
@@ -121,8 +121,8 @@ const CourseDetails = () => {
       originalPrice: '₹45,000',
       discount: '22%',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop',
-      instructor: 'Priya Sharma',
-      instructorImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
+      instructor: 'Mr. JK',
+      //instructorImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
       description: 'Comprehensive AWS training covering core services, security, and best practices. Learn to design, deploy, and manage applications on AWS cloud infrastructure.',
       highlights: [
         'Master AWS core services (EC2, S3, RDS)',
@@ -213,8 +213,8 @@ const CourseDetails = () => {
       originalPrice: '₹28,000',
       discount: '29%',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop',
-      instructor: 'Amit Patel',
-      instructorImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
+      instructor: 'Mr. JK',
+      //instructorImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
       description: 'Learn Apache Kafka and microservices architecture to build scalable, event-driven applications. Master distributed systems and real-time data processing.',
       highlights: [
         'Understand Kafka architecture and concepts',

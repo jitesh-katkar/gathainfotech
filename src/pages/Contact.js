@@ -50,19 +50,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 98765 43211'],
+      details: ['+91 81493 81488'],
       description: 'Call us during business hours'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@gathainfotech.com', 'admissions@gathainfotech.com'],
+      details: ['official@gathainfotech.com'],
       description: 'Send us an email anytime'
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Tech Street', 'Bangalore, Karnataka 560001', 'India'],
+      details: ['', 'Pune, Maharashtra 411041', 'India'],
       description: 'Visit our training center'
     },
     {
@@ -259,13 +259,13 @@ const Contact = () => {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
                     <p className="text-gray-600">Interactive Map</p>
-                    <p className="text-sm text-gray-500">123 Tech Street, Bangalore</p>
+                    <p className="text-sm text-gray-500">Pune, Maharashtra</p>
                   </div>
                 </div>
               </div>
 
               <div className="card">
-                <h3 className="text-xl font-semibold mb-4">Why Choose Gathainfotech?</h3>
+                <h3 className="text-xl font-semibold mb-4">Why Choose Gatha Infotech ?</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
@@ -298,7 +298,7 @@ const Contact = () => {
                 </p>
                 <div className="bg-primary-50 rounded-lg p-4">
                   <p className="text-primary-900 font-medium">Emergency Contact</p>
-                  <p className="text-primary-700">+91 98765 43210</p>
+                  <p className="text-primary-700">+91 81493 81488</p>
                 </div>
               </div>
             </div>
